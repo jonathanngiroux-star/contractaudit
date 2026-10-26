@@ -1,0 +1,40 @@
+# Binaries
+contractaudit
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Coverage
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace
+go.work
+
+# Config and reports
+config.yaml
+rules/
+reports/
+*.json
+!go.mod
+!go.sum
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
